@@ -154,12 +154,6 @@ Dockerfile can be found:
 Dockerfiles/r441seurat5signac/Dockerfile
 ```
 
-Dockerfile can be found:
-
-```sh
-Dockerfiles/scRNAseq_R422_Seurat43/Dockerfile
-```
-
 Session info:
 ```sh
 R version 4.4.1 (2024-06-14)
@@ -263,6 +257,12 @@ To use as a base image in a new Dockerfile:
 
 ```sh
 FROM yannvrb56/scrnaseq_r422_seurat43
+```
+
+Dockerfile can be found:
+
+```sh
+Dockerfiles/scRNAseq_R422_Seurat43/Dockerfile
 ```
 
 Session info:
