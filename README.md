@@ -20,6 +20,13 @@ Run docker build command to build your image:
 ```sh
 docker build . -t yannvrb56/bulkrnaseq
 ```
+
+Then push the image to your docker account:
+
+```sh
+docker push yannvrb56/bulkrnaseq
+```
+
 # Docker Images and their content
 
 ## Bulk RNA-seq
