@@ -15,13 +15,13 @@ Inside, create a file named Dockerfile.
 Use a text editor to implement commands to install packages.
 Save your Dockerfile.
 
-Run docker build command to build your image:
+Run docker build command to build your image. Replace my personnal id with yours:
 
 ```sh
 docker build . -t yannvrb56/bulkrnaseq
 ```
 
-Then push the image to your docker account:
+Then push the image to your docker account. Replace my personnal id with yours:
 
 ```sh
 docker push yannvrb56/bulkrnaseq
