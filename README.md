@@ -128,7 +128,7 @@ loaded via a namespace (and not attached):
 [109] cowplot_1.1.3            fastmatch_1.1-4         
 ```
 
-## Single cell RNA-seq and single cell ATAC-seq (Seurat5.1 anf Signac)
+## Single cell RNA-seq and single cell ATAC-seq (Seurat5.1 and Signac)
 
 To pull the image from the command line:
 
