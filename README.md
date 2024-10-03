@@ -70,7 +70,7 @@ To use as a base image in a new Dockerfile:
 FROM yannvrb56/bulkrnaseq
 ```
 
-Dockerfile can be found:
+Dockerfile can be found in this GitHub repository at:
 
 ```sh
 Dockerfiles/bulkrnaseq/Dockerfile
@@ -175,7 +175,7 @@ To use as a base image in a new Dockerfile:
 FROM yannvrb56/r441seurat5signac
 ```
 
-Dockerfile can be found:
+Dockerfile can be found in this GitHub repository at:
 
 ```sh
 Dockerfiles/r441seurat5signac/Dockerfile
@@ -286,7 +286,7 @@ To use as a base image in a new Dockerfile:
 FROM yannvrb56/scrnaseq_r422_seurat43
 ```
 
-Dockerfile can be found:
+Dockerfile can be found in this GitHub repository at:
 
 ```sh
 Dockerfiles/scRNAseq_R422_Seurat43/Dockerfile
