@@ -53,6 +53,8 @@ http://localhost:PORT
 
 Rstudio username and password can be found in slurm output.
 
+For more information about container engines (Docker and Singularity) check out [Integrated Genomics & Bioinformatics](https://igb.mit.edu/mini-courses/advanced-utilization-of-igb-computational-resources/containerization) website
+
 # Docker Images and their content
 
 ## Bulk RNA-seq
