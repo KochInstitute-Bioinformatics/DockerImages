@@ -39,7 +39,6 @@ Then launch singularity bash script  on cluster node:
 sbatch singularity_Rstudio_bulkRNAseq.sh
 ```
 
-Check slurm output for SOCKET number.
 Then in a different terminal, create ssh tunneling to open Rstudio in browser. Replace kerbrosID by your own, replace PORT by a personnal 4 digits code, repalce b13 by the cluster node the singularity script was submitted, replace SOCKET by the SOCKET number found in slurm output:
 
 ```sh
