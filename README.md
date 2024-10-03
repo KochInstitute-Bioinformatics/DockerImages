@@ -27,6 +27,33 @@ Then push the image to your docker account. Replace my personnal id with yours:
 docker push yannvrb56/bulkrnaseq
 ```
 
+For MIT Luria cluster user, modify line in singularity bash script by replacing my docker personnal id (yannvrb56) by your own. Replace the docker image (bulkrnaseq) if using a different image:
+
+```sh
+singularity exec --cleanenv -H $PWD:/home/rstudio docker://yannvrb56/bulkrnaseq
+```
+
+Then launch singularity bash script  on cluster node:
+
+```sh
+sbatch singularity_Rstudio_bulkRNAseq.sh
+```
+
+Check slurm output for SOCKET number.
+Then in a different terminal, create ssh tunneling to open Rstudio in browser. Replace kerbrosID by your own, replace PORT by a personnal 4 digits code, repalce b13 by the cluster node the singularity script was submitted, replace SOCKET by the SOCKET number found in slurm output:
+
+```sh
+ssh -t kerbrosID@luria.mit.edu -L PORT:localhost:PORT ssh b13 -L PORT:localhost:SOCKET
+```
+
+Then open internet browser and enter:
+
+```sh
+http://localhost:PORT
+```
+
+Rstudio username and password can be found in slurm output.
+
 # Docker Images and their content
 
 ## Bulk RNA-seq
